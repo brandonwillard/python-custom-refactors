@@ -21,9 +21,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     python_requires=">=3.6",
     zip_safe=False,
-    install_requires=[
-        "libcst"
-    ],
+    install_requires=["libcst"],
     classifiers=[
         "License :: OSI Approved :: MIT License",
         "Topic :: Software Development :: Libraries",
